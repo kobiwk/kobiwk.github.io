@@ -1,4 +1,28 @@
-.coming-soon {
+body {
+	width: 100%;
+}
+
+.container {
 	display: flex;
-	
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 6rem;
+	width: 100%;
+
+}
+
+.container img {
+	border: 3px solid black;
+}
+
+.button-front {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 3rem;
+	width: 100%;
+}
+
+.button-front button {
+		background-color: transparent;
 }
