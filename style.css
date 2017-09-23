@@ -86,6 +86,8 @@ table {
 @keyframes paragraph {
 	from {color: white;}
 	to {color: #d8222e;}
+	0% {left:0px; top:0px;}
+
 }
 
 .front-message p {
@@ -96,4 +98,6 @@ table {
 	text-shadow: 2px 0 0 #d7d7b1, -2px 0 0 #d7d7b1, 0 2px 0 #d7d7b1, 0 -2px 0 #d7d7b1, 1px 1px #d7d7b1, -1px -1px 0 #d7d7b1, 1px -1px 0 #d7d7b1, -1px 1px 0 #d7d7b1;
 	animation-name: paragraph;
 	animation-duration: 4s;
+	animation-iteration-count: 30;
+    animation-direction: reverse;    
 }
