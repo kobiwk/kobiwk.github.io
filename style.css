@@ -47,6 +47,17 @@ table {
 	border-spacing: 0;
 }
 
+
+
+/*
+kao bela #f7e6d2
+svetlo ljubicasta #791e57
+tamnoljubicasta #593565
+tamnoplava #4395a1
+svetloplava #29b5b6
+*/
+
+
 /*CUSTOM CODE*/
 
 .container {
@@ -55,9 +66,7 @@ table {
 	justify-content: center;
 	margin-top: 6rem;
 	width: 100%;
-
 }
-
 
 .front-message {
 	display: flex;
@@ -83,6 +92,8 @@ table {
 	border: 3px solid #72bbb0;
 }
 
+
+
 @keyframes paragraph {
 	from {color: white;}
 	to {color: #d8222e;}
@@ -100,4 +111,25 @@ table {
 	animation-duration: 4s;
 	animation-iteration-count: 30;
     animation-direction: reverse;    
+}
+
+@keyframes rotation {
+	from {
+			-webkit-transform: rotate(0deg);
+	}
+	
+	to {
+			-webkit-transform: rotate(359deg);
+	}
+	
+}
+
+
+.paragraph-message {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 1rem;
+	width: 100%;
+
 }
