@@ -60,12 +60,25 @@ svetloplava #29b5b6
 
 /*CUSTOM CODE*/
 
+@keyframes image {
+	0% {opacity: 0;}
+   50% {opacity: 0.5;}
+  100% {opacity: 1;}
+}
+
 .container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 6rem;
 	width: 100%;
+	animation-name: image;
+	animation-duration: 4s;
+}
+
+
+.container img {
+	border: 3px solid #72bbb0;
 }
 
 .front-message {
@@ -83,15 +96,11 @@ svetloplava #29b5b6
   100% {opacity: 1;}
 }
 
-.container {	
-	animation-name: image;
-	animation-duration: 4s;
-}
+
 
 .container img {
 	border: 3px solid #72bbb0;
 }
-
 
 
 @keyframes paragraph {
@@ -109,19 +118,23 @@ svetloplava #29b5b6
 	text-shadow: 2px 0 0 #d7d7b1, -2px 0 0 #d7d7b1, 0 2px 0 #d7d7b1, 0 -2px 0 #d7d7b1, 1px 1px #d7d7b1, -1px -1px 0 #d7d7b1, 1px -1px 0 #d7d7b1, -1px 1px 0 #d7d7b1;
 	animation-name: paragraph;
 	animation-duration: 4s;
-	animation-iteration-count: 30;
+	animation-iteration-count: infinite;
     animation-direction: reverse;    
 }
 
 @keyframes rotation {   
 	from {
-			-webkit-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
 	}
 	
 	to {
-			-webkit-transform: rotate(359deg);
+		-webkit-transform: rotate(359deg);
 	}
 	
+}
+
+#animate {
+	-webkit-transform: rotate(45deg);
 }
 
 
