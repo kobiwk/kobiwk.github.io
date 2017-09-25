@@ -81,6 +81,8 @@ svetloplava #29b5b6
 	border: 3px solid #72bbb0;
 }
 
+
+
 .front-message {
 	display: flex;
 	flex-wrap: wrap;
@@ -89,20 +91,6 @@ svetloplava #29b5b6
 	width: 100%;
 
 }
-
-@keyframes image {
-	0% {opacity: 0;}
-   50% {opacity: 0.5;}
-  100% {opacity: 1;}
-}
-
-
-
-.container img {
-	border: 3px solid #72bbb0;
-}
-
-
 @keyframes paragraph {
 	from {color: white;}
 	to {color: #d8222e;}
@@ -122,7 +110,7 @@ svetloplava #29b5b6
     animation-direction: reverse;    
 }
 
-@keyframes rotation {   
+@keyframes rotation {
 	from {
 		-webkit-transform: rotate(0deg);
 	}
