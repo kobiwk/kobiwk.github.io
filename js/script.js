@@ -12,4 +12,4 @@ function myMove() {
       //elem.style.left = pos + 'px'; 
     }
   }
-}
+}  
